@@ -9,7 +9,7 @@ namespace KerbalWeatherProject
     //API for accessing Kerbin climatogical data.
     public class climate_data : MonoBehaviour
     {
-        const int NT = 6; //Time Dimension (hours in Kerbin Day)
+        const int NT = 24; //Time Dimension (hours in Kerbin Day)
         const int NZ = 17; //Height dimension (vertical levels) 
         const int NLAT = 91; //Latitude dimension (y-grid)
         const int NLON = 181; //Longitude dimension (x-grid)
