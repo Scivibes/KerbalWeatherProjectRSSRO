@@ -119,7 +119,7 @@ namespace KerbalWeatherProject
             {
                 heights[j] = heights_3d[lat_idx, lng_idx, j];
             }
-            heights[NZ-1] = 70000;
+            heights[NZ-1] = 140000;
             int hidx = Util.find_min(heights, vheight); //index of nearest height
                     
             if (hidx >= heights.Length)
